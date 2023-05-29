@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:text="Question 7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:text="What should a strong password contain?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:textColor="#ffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="Numbers"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:textColor="#ffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="Capital Letters"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3"
+            android:textColor="#ffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="Punctuation, Lowercase Letters, Capital Letters and Numbers"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb4"
+            android:textColor="#ffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="Punctuation, Capital Letters, Lowercase Letters and Spaces"
+            android:layout_marginTop="10dp"
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="160dp"
+            android:src="@drawable/previous"
+            android:gravity="left"
+            android:backgroundTint="#A3075E"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/pre7"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:gravity="right"
+            android:backgroundTint="#A3075E"
+            android:layout_marginTop="60dp"
+            android:id="@+id/next7"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+

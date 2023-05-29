@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:text="Question 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="211dp"
+        android:layout_height="164dp"
+        android:layout_marginLeft="90dp"
+        app:srcCompat="@drawable/que3" />
+
+    <TextView
+        android:text="What would you use this cable for?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:textColor="#ffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="Connecting a computer to a monitor."
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:textColor="#ffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="Connecting to the internet."
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3"
+            android:textColor="#ffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="Connecting a USB flash drive to a computer."
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb4"
+            android:textColor="#ffff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="All of the above"
+
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="160dp"
+            android:src="@drawable/previous"
+            android:gravity="left"
+            android:backgroundTint="#A3075E"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/pre3"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:gravity="right"
+            android:backgroundTint="#A3075E"
+            android:layout_marginTop="30dp"
+            android:id="@+id/next3"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+

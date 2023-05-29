@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="100dp"
+      android:layout_marginBottom="150dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@drawable/radius"
+      android:radius="30dp"
+      android:orientation="vertical"
+
+      >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="#ffffff"
+        android:textSize="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Quiz App"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Start"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/radius3"
+        android:backgroundTint="#A3075E"
+        android:id="@+id/start"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        >
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/gg"
+        android:gravity="left"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/gg"
+        />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/yt"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/yt"
+        />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fb"
+        android:gravity="right"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/fb"
+        />
+
+  </LinearLayout>
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="650dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:gravity="center"
+        android:text="Vantharumoolai"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:gravity="center"
+        android:text="NDICT-2022"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+  </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
